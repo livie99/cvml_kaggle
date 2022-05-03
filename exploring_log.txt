@@ -1,0 +1,29 @@
+general_distribution: 
+0    236
+1     64
+Name: MIG_group, dtype: int64
+group_mean: 
+               Number       Sex        Age    Tscore      Height     Weight  \
+MIG_group                                                                     
+0          146.961864  0.415254  67.834746 -0.788085  170.952991  83.251282   
+1          163.546875  0.390625  70.093750 -1.079687  170.103175  83.782540   
+
+                 BMI  Cem_ucem       TKA      side       BASP  PTHpmoll  \
+MIG_group                                                                 
+0          28.455806  0.444915  0.533898  0.627119  72.008658  5.406383   
+1          28.848056  0.531250  0.734375  0.625000  69.725806  5.979687   
+
+           Vitdnmoll   CTXmygl       P1NP  calciumion  creatinin       eGFR  \
+MIG_group                                                                     
+0          81.182979  0.291082  47.398268    1.277957  75.538136  76.161017   
+1          81.968750  0.317258  50.548387    1.295156  75.285313  75.375000   
+
+           oks_total  VAS_aktiv  exercise  former_alcoholabuse    smoker  \
+MIG_group                                                                  
+0          23.030568  57.310044  0.646288             0.039301  0.117904   
+1          23.241935  59.709677  0.661290             0.048387  0.048387   
+
+           former_smoker  
+MIG_group                 
+0               0.580786  
+1               0.419355  

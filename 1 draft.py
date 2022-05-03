@@ -1,4 +1,4 @@
-from cProfile import label
+
 import logging
 import numpy as np
 import pandas as pd
@@ -35,6 +35,8 @@ for col in test_data.columns:
     test_data[col] = test_data[col].replace(np.nan,test_mean[col])
 
 
+
+
 train_features = train_data[train_data.columns[:-1]]
 train_labels = train_data['MIG_group']
 validation_features = validation_data[validation_data.columns[:-1]]
@@ -56,5 +58,5 @@ lables = model.predict(test_data)
 result = pd.DataFrame({
     'ID':test_data['Number'],
     'Label':lables})
-result.to_csv('1.csv', index=False)
+result.to_csv('test_result.csv', index=False)
 print(result)
